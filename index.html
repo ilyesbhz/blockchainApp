@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Data Store</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Blockchain Data Store</h1>
+    <div>
+        <input type="text" id="dataInput" placeholder="Enter data to store">
+        <button onclick="storeData()">Store Data</button>
+    </div>
+    <div>
+        <button onclick="retrieveData()">Retrieve My Data</button>
+        <p id="output"></p>
+    </div>
+</body>
+</html>
